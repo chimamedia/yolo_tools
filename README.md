@@ -6,7 +6,6 @@ PythonはPython 3で書いています。
 + inflate_images.py：画像を増やすプログラム
 + convert.py：Yoloで訓練するためのセットを作成
 + base.cfg：cfgファイルを構成するためのベースとなるもの（エポック数など変更するならここで）
-+ darknet19_448.conv.23：Yoloの学習時に使用する
 
 # Usage
 ## BBox-Label-Tool.py
