@@ -126,7 +126,7 @@ def main(data_dir, obj_dir):
     
             ct = 0
             for line in lines:
-                if(len(line) >= 2):
+                if(len(line) >= 4):
                     ct = ct + 1
                     print(line + "\n")
                     elems = line.split(' ')
