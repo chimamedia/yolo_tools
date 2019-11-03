@@ -9,15 +9,19 @@ PythonはPython 3で書いています。
 
 # Usage
 ## BBox-Label-Tool.py
- python BBox-Label-Tool.py Folder
+```python BBox-Label-Tool.py Folder```
 
 ## inflate_image.py
- python inflate_image.py  InFolder (OutFolder)
+```python inflate_image.py  InFolder (OutFolder)```
  
 ※OutFolderを指定しない場合はobjフォルダが作成される。
 
-## convert.py
- python convert.py InFolder (OutFolder) (LearningRatio)
+## convert_v2.py or convert_v3.py
+- YOLO v2
+```python convert_v2.py InFolder (OutFolder) (LearningRatio)```
+
+- YOLO v3
+```python convert_v3.py InFolder (OutFolder) (LearningRatio)```
 
 ※OutFolderはinflate_image.pyと同じ（指定していないときはobj）
 ※LearningRatioは0～1の値で指定しない場合は1:1
