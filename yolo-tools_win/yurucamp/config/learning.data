@@ -1,0 +1,5 @@
+classes = 2
+train = .\yurucamp\/config/train.txt
+valid = .\yurucamp\/config/valid.txt
+names = .\yurucamp\/config/learning.names
+backup = backup
